@@ -11,7 +11,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        neutral: palette.neutral,
         white: palette.white,
         black: palette.black,
         background: palette.background,

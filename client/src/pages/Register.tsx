@@ -33,7 +33,7 @@ export default function Register() {
     <div className="min-h-screen w-full flex items-center justify-center bg-[#F9FAFB] px-4 sm:px-6 md:px-8 lg:px-10 xl:px-24">
       <form
         onSubmit={handleSubmit}
-        className="w-full max-w-[90vw] sm:max-w-[540px] h-auto sm:h-[400px] bg-white shadow-lg rounded-xl px-6 py-8 sm:py-12"
+        className="w-full max-w-[90vw] sm:max-w-[540px] h-fit bg-white shadow-lg rounded-xl px-6 py-8 sm:py-12"
       >
         <h2 className="text-3xl font-bold text-center mb-8">Sign up</h2>
 
@@ -77,7 +77,7 @@ export default function Register() {
 
         <button
           type="submit"
-          className="w-full py-3 bg-[#1D4ED8] text-white rounded-lg transition hover:bg-blue-700"
+          className="w-full py-3 bg-background text-white rounded-lg transition hover:bg-blue-700"
         >
           Create an Account
         </button>
